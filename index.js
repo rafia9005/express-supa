@@ -13,3 +13,5 @@ app.use("/", router);
 app.listen(port, () => {
   console.log(`running on http://localhost:${port}`);
 });
+
+module.exports = app;
